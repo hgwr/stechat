@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ \! -d dat ]; then
+  mkdir dat
+  chmod 777 dat
+fi
+
+for (( i=0 ; i < 256 ; i++ )); do 
+  d=`printf "dat/%02x\n" $i`
+  if [ \! -d $d ]; then
+    mkdir $d
+    chmod 777 $d
+  fi
+done

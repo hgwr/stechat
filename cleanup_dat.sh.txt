@@ -1,0 +1,3 @@
+#!/bin/sh
+find dat -type f -mtime +0 -delete
+
