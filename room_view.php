@@ -8,6 +8,7 @@
 <script type="text/javascript" src="effects.js"></script>
 <!--[if IE]><script type="text/javascript" src="http://www.moreslowly.jp/products/identicon/excanvas.js"></script><![endif]-->
 <script type="text/javascript" src="http://www.moreslowly.jp/products/identicon/identicon.js"></script>
+<script type="text/javascript" src="json2.js"></script>
 <script type="text/javascript" src="stechat.js"></script>
 <title>Stechat<?php  print ' - '; sc_out($o['room']); ?></title>
 </head>
