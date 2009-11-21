@@ -10,6 +10,9 @@
 <form name="room_form" action="." method="GET">
 Room <input type="text" name="room" tabindex="1"> <input type="submit" name="send" value="Enter" tabindex="2">
 </form>
+<p>
+<a href="help.html">Help</a>
+</p>
 <hr>
 <div><a href="http://www.moreslowly.jp/">moreslowly.jp</a></div>
 </body></html>
